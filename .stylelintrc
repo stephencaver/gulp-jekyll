@@ -1,7 +1,4 @@
 {
-  "plugins": [
-    "stylelint-order"
-  ],
   "rules": {
     "at-rule-semicolon-space-before": "never",
     "block-no-empty": true,

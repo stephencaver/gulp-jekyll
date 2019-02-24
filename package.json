@@ -48,7 +48,6 @@
     "require-dir": "^1.0.0",
     "run-sequence": "^2.2.1",
     "stylelint": "^9.3.0",
-    "stylelint-order": "^0.8.1",
     "uncss": "^0.16.2",
     "vinyl-source-stream": "^2.0.0",
     "watchify": "^3.11.0"
