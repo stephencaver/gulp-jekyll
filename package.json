@@ -37,6 +37,7 @@
     "gulp.spritesmith": "^6.9.0",
     "jshint": "^2.9.5",
     "jshint-stylish": "^2.2.1",
+    "normalize.css": "^8.0.1",
     "postcss-advanced-variables": "^2.3.3",
     "postcss-nested": "^3.0.0",
     "postcss-preset-env": "^5.2.3",
