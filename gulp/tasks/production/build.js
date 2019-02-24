@@ -20,7 +20,6 @@ gulp.task('build:production', function(callback) {
     'responsive-images'
     //'copy:fonts'
   ],
-  //'base64',
   [
     'copy:css',
     'optimize:js',

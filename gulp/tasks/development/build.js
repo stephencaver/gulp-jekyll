@@ -19,7 +19,6 @@ gulp.task('build', function(callback) {
     //'responsive-images'
     //'copy:fonts'
   ],
-  //'base64',
   [
     'optimize:html'
     //'copy:fonts:production'

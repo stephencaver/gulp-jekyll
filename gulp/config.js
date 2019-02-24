@@ -209,19 +209,6 @@ module.exports = {
     }
   },
 
-  // Base64
-  // @NOTE: Not used.
-  base64: {
-    src: developmentAssets + '/css/*.css',
-    dest: developmentAssets + '/css',
-    options: {
-      baseDir: build,
-      extensions: ['png'],
-      maxImageSize: 20 * 1024, // bytes
-      debug: false
-    }
-  },
-
   // Copy images
   images: {
     src:  srcAssets + '/images/**/*',
