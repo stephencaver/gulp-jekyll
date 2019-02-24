@@ -34,7 +34,6 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^3.0.0",
     "gulp-webp": "^3.0.0",
-    "gulp.spritesmith": "^6.9.0",
     "jshint": "^2.9.5",
     "jshint-stylish": "^2.2.1",
     "normalize.css": "^8.0.1",

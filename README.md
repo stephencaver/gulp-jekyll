@@ -13,7 +13,6 @@ Jekyll + Gulp.js + BrowserSync + PostCSS + Stylelint
 - Extensive Stylelint config, based on my [code-guide](https://github.com/michaelx/code-guide).
 - Sourcemap generation.
 - Responsive image creation, or image resizing, through either GraphicsMagick or ImageMagick.
-- Image sprites.
 - Gzip compression.
 - Asset file revisions.
 - WebP image generation.

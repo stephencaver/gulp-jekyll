@@ -62,7 +62,6 @@ module.exports = {
     styles:  srcAssets + '/styles/**/*.css',
     scripts: srcAssets + '/javascripts/**/*.js',
     images:  srcAssets + '/images/**/*',
-    sprites: srcAssets + '/images/**/*.png',
     svg:     srcAssets + '/images/**/*.svg',
   },
 
@@ -179,33 +178,6 @@ module.exports = {
     options: {
       preset: 'photo',
       quality: 90
-    }
-  },
-
-  // Sprites generation
-  // @TODO: Currently not used, might replace with gulp-svgstore!
-  sprites: {
-    src: srcAssets + '/images/sprites/icon/*.png',
-    dest: {
-      css: srcAssets + '/styles/base/',
-      image: srcAssets + '/images/sprites/'
-    },
-    options: {
-      cssName: '_sprites.css',
-      cssFormat: 'css',
-      cssOpts: {
-        cssClass: function (item) {
-          // If this is a hover sprite, name it as a hover one (e.g. 'home-hover' -> 'home:hover')
-          if (item.name.indexOf('-hover') !== -1) {
-            return '.icon-' + item.name.replace('-hover', ':hover');
-            // Otherwise, use the name as the selector (e.g. 'home' -> 'home')
-          } else {
-            return '.icon-' + item.name;
-          }
-        }
-      },
-      imgName: 'icon-sprite.png',
-      imgPath: '/assets/images/sprites/icon-sprite.png'
     }
   },
 
