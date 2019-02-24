@@ -37,19 +37,12 @@ Ruby, use [rbenv](https://github.com/rbenv/rbenv) to install and manage versions
 gem install bundler
 ```
 
-[bower](https://github.com/bower/bower), install with:
-
-```sh
-npm install -g bower
-```
-
 ## Installation
 
 Clone the repository on your computer and change into the projects folder. Run:
 
 ```sh
 $ bundle
-$ bower install
 $ npm install
 ```
 
