@@ -1,9 +1,10 @@
 {
   "name": "gulp-jekyll",
-  "version": "0.2.3",
+  "version": "0.0.1",
   "description": "The build process for gulp-jekyll",
-  "author": "Michael Xander",
-  "repository": "michaelx/gulp-jekyll",
+  "author": "Stephen Caver",
+  "license": "",
+  "repository": "stephencaver/gulp-jekyll",
   "devDependencies": {
     "browser-sync": "^2.24.6",
     "browserify": "^16.2.2",
@@ -48,21 +49,23 @@
     "run-sequence": "^2.2.1",
     "stylelint": "^9.3.0",
     "stylelint-order": "^0.8.1",
-    "uncss": "^0.14.1",
+    "uncss": "^0.16.2",
     "vinyl-source-stream": "^2.0.0",
     "watchify": "^3.11.0"
   },
-  "browser": {
-    "jquery": "./app/_bower_components/jquery/dist/jquery.js"
-  },
-  "browserify-shim": {},
   "browserify": {
     "transform": [
       "browserify-shim"
     ]
   },
+  "browserify-shim": {
+    "jquery": "$"
+  },
   "browserslist": [
     "last 2 versions",
     "IE 10"
-  ]
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
 }
